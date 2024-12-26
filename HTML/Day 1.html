@@ -1,1 +1,56 @@
+HTML Boilerplate for all questions
+<!--
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+  </head>
+  <body></body>
+</html>
+-->
 
+-- Display a paragraph 'I am the tallest one in my class' in bold format with blue color.
+<p style="color:blue"><b>I am the tallest one in my class</b></p>
+
+-- Highlight the word 'Attitude' with background color as green in the paragraph 'Attitude plays a major role in life of a person' and the whole paragraph text should be in bold format.
+<p><b><mark style="background-color:green">Attitude</mark> plays a major role in life of a person</b></p>
+
+-- Display a rectangle using canvas of width 200 and height 100 with border color as black using id selector.
+-- Note: <canvas> tag is used to create a rectangular area on a web page where you can draw graphics and animations using JavaScript.
+<style>
+  #mycanvas {
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+  }
+</style>
+<canvas id="mycanvas"></canvas>
+
+-- Create an ordered list with identifiers as numerals and list items as Alex,Deeksha,Ray,Neha.
+<ol type="1">
+  <li>Alex</li>
+  <li>Deeksha</li>
+  <li>Raya</li>
+  <li>Neha</li>
+</ol>
+
+-- Quote using double quotes the word scripting in the sentence "This can be defined as scripting".
+<p>This can be defined as <q>scripting</q></p>
+
+-- Create a textarea of row size as 3 and column width as 120 with content " Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book".
+<label for=area>Text area:</label>
+<textarea id=area row="3" col="120">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book</textarea>
+
+-- Display largest heading "SkillSet" and skillset of a student with the help of progress bars whose attribute value (for and id must be of file) Java with 72%, Python with 95%, C with 63% and C++ with 43%
+<h1>Skillset</h1>
+<label for="file">Java</label>
+<progress id="file" value="72" max="100"></progress>
+<label for="file">Python</label>
+<progress id="file" value="95" max="100"></progress>
+<label for="file">C</label>
+<progress id="file" value="63" max="100"></progress>
+<label for="file">C++</label>
+<progress id="file" value="43" max="100"></progress>
