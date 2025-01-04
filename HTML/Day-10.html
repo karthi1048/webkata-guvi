@@ -1,1 +1,30 @@
+-- Display "Hello from Guvian" in a paragraph tag, where you have to increase the font size of the word 'Guvian' using class named 'note' to 20px in a span tag.
+<style>
+  .note{  
+    font-size: 20px;
+  }
+</style>
+<p class="note">Hello from Guvian</p>
 
+-- Assign "Hello" to a string variable, 1 to a variable, print both in same line using Java Script.
+<p id='demo'></p>
+<script>
+  let a = 'Hello';
+  let b = 1;
+  let c = document.getElementById('demo');
+  console.log(c.innerHTML = a + b);
+</script>
+
+-- Print the numbers from 1 to 5 using Javascript using for loop(give space between each number)).
+<p id='demo'></p>
+<script>
+let c = document.getElementById('demo');
+let r = '';
+for (let i=1; i<=5; i++){
+    r = r + i;
+    if(i<5){
+        r = r + ' ';
+    }
+}
+console.log(c.innerHTML = r);
+</script>
