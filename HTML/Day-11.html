@@ -1,1 +1,34 @@
+-- Display "Hello From Guvian" using paragraph tag and by using :after pseudo element add ! after the text.
+<style>
+        p::after {
+            content: '!';
+        }
+</style>
 
+-- Set the font of the paragraph "I love ice-cream" to small-caps.
+<style>
+  .small{
+    font-variant: small-caps;
+  }
+</style>
+
+-- Given a array, sort the array in Ascending order and print, using Javascript array=[40, 100, 1, 5, 25, 10]; Example(array=[5,4,3,2,1] sorted array 1,2,3,4,5 in p tag).
+<script>
+  let p = document.getElementById('demo');
+  let arr = [40, 100, 1, 5, 25, 10];
+  p.innerHTML = arr.sort(function(a,b){
+      return a-b
+  });
+</script>
+
+-- Create a input field with a label "Enter the name".
+<label for='a'>Enter the name</label>
+<input type='username'>
+
+-- Display "Hello From Guvian" in a paragraph and highlight the word "Hello" in italics using internal CSS via class name italic.
+<style>
+        .italic{
+            font-style: italic;
+        }
+</style>
+<p><span class=italic>Hello</span> From Guvian</p>
