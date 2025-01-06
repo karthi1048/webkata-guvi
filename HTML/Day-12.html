@@ -1,1 +1,32 @@
+-- Display "Hello From Guvian" in a paragraph and highlight the word "Hello" in italics using internal CSS via class name italic.
+    <style>
+        .italic{
+            font-style: italic;
+        }
+    </style>
+    <p><span class=italic>Hello</span> From Guvian</p>
 
+-- Create a HTML form, With "FirstName" , "LastName" as id to input fields, with a "submit" button and a Heading tag "Guvi Form".
+<h2>Guvi Form</h2>
+<form>
+  <label for='FirstName'>FirstName</label>
+  <input type='username' id='FirstName'>
+  <label for='LastName'>LastName</label>
+  <input type='username' id='LastName'>
+  <button type='submit'>submit</button>
+</form>
+
+-- Create a HTML form, With "Firstname", "Password" as id for input fields, with a "submit" button and a Heading tag "Guvi Form", Password field should get only 4 characters as input.
+<h2>Guvi Form</h2>
+<form>
+  <label for='Firstname'>FIRSTNAME</label>
+  <input type='username' id='Firstname'>
+  <label for='Password'>PASSWORD</label>
+  <input type='password' id='Password' maxlength='4'>
+  <button type='submit'>submit</button>
+</form>
+
+-- Draw a Circle with radius of 40 with blue colour, black colour stroke using SVG (Width =100 and height =100) x,y 50,50.
+<svg width="100" height="100">
+  <circle r="40" cx="50" cy="50" fill='blue' stroke='black'/>
+</svg>
