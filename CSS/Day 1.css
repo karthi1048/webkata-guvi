@@ -1,1 +1,78 @@
+-- Display flex-items in a column using the flex-direction property.
+.flex-container {
+    background-color: dodgerblue;
+    display : flex;
+    flex-direction: column;
+}
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #f1f1f1;
+}
 
+-- Display flex-items in a row using the flex-direction property.
+.flex-container {
+    background-color: dodgerblue;
+    display : flex;
+    flex-direction: row;
+}
+
+-- Change the background-color to green and set flex-wrap property to wrap using the class selector(.flex-container).
+.flex-container {
+    background-color: green;
+    display : flex;
+    flex-wrap: wrap;
+}
+
+-- Set the property flex-wrap to nowrap using class selector(.flex-container).
+.flex-container {
+    background-color: dodgerblue;
+    display : flex;
+    flex-wrap: nowrap;
+}
+
+-- Set flex-wrap property to wrap-reverse using the class selector (.flex-container).
+.flex-container {
+    background-color: dodgerblue;
+    display : flex;
+    flex-wrap: wrap-reverse;
+}
+
+-- Set flex-flow property to column-reverse and wrap using the css selector (.flex-container).
+.flex-container {
+  background-color: dodgerblue;
+  display : flex;
+  flex-flow: column-reverse;
+  flex-wrap: wrap;
+}
+
+-- Set flex-flow property to column nowrap using the css selector (.flex-container).
+.flex-container {
+  background-color: dodgerblue;
+  display : flex;
+  flex-flow: column;
+  flex-wrap: nowrap;
+}
+
+-- Set flex-flow property to row-reverse wrap using the css selector (.flex-container).
+.flex-container {
+  background-color: dodgerblue;
+  display : flex;
+  flex-flow: row-reverse;
+  flex-wrap: wrap;
+}
+
+-- Align the flex-items at the end of the container using the justify-content property using the selector(flex-container).
+.flex-container {
+  background-color: dodgerblue;
+  display : flex;
+  justify-content: flex-end;
+}
+
+-- Align the flex-items with space between the lines of the container using "justify-content" property using the css selector.
+.flex-container {
+  background-color: dodgerblue;
+  display : flex;
+  justify-content: space-between;
+}
