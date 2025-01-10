@@ -1,1 +1,39 @@
+-- Stretch the flex-items of the container by using the "align-items" property.
+.flex-container {
+            display : flex;
+            height: 200px;
+            flex-wrap: wrap;
+            align-items: stretch;
+            background-color: dodgerblue;
+}
 
+-- Align the flex-items at the beginning of the container by using the "justify-content" property using the css selectors.
+.flex-container {
+                display : flex;
+                background-color: dodgerblue;
+                justify-content: flex-start;
+}
+
+-- Align the flex-items at the center of the container using the css selectors.
+.flex-container {
+                display : flex;
+                height: 200px;
+                flex-wrap: wrap;
+                align-items: center;
+                background-color: dodgerblue;
+}
+
+-- Align the flex-lines at the center of the container by using "align-content' property using the css selectors.
+.flex-container {
+            display : flex;
+            flex-wrap: wrap;
+            height : 300px;
+            align-content: center;
+}
+
+-- Stretch the flex-lines of the container by using the 'align-content' property and set flex-wrap property to "wrap" using the css selectors.
+.flex-container {
+            display : flex;
+            align-content: stretch;
+            flex-wrap: wrap;
+}
