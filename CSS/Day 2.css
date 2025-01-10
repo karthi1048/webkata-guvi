@@ -23,7 +23,7 @@
                 background-color: dodgerblue;
 }
 
--- Align the flex-lines at the center of the container by using "align-content' property using the css selectors.
+-- Align the flex-lines at the center of the container by using 'align-content' property using the css selectors.
 .flex-container {
             display : flex;
             flex-wrap: wrap;
