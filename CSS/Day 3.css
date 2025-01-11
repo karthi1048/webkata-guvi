@@ -1,1 +1,54 @@
+-- Align the div at the center of the flex using the css selector (flex-container)
+.flex-container {
+                display : flex;
+                justify-content: center;
+                align-items: center;
+}
 
+-- Set the order property to 0 using inline css and change the display property to flex using css selector(flex-container).
+.flex-container {
+                display: flex;
+                background-color: dodgerblue;
+}
+<div style="order:0;">1</div>
+
+-- Change the flex-direction property to row-reverse using the css selectors (.flex-container) and change the flex grow property to 1 as well as 5 in the inline css.
+.flex-container {
+            display : flex;
+            background-color : dodgerblue;
+            flex-direction: row-reverse;
+}
+<div class="flex-container">
+<div style="flex-grow: 1;">1</div>
+<div style="flex-grow: 5;">2</div>
+</div>
+
+-- Display a flex container as Flexible by using display property and change the flex items size to 50px.
+.flex-container {
+                display: flex;
+                background-color: dodgerblue;
+}
+.flex-container >div {
+              margin: 10px;
+              padding: 20px;
+              font-size: 50px;
+              text-align: center;
+              background-color: #f1f1f1; 
+}
+
+-- Set the position of the flex-items at the end of the container by using align-items property using class selector (flex-container).
+.flex-container {
+              display: flex;
+              height: 200px;
+              align-items: flex-end;
+              background-color: dodgerblue;
+}
+
+-- Align flex-lines to the end of the container by using align-content property.
+.flex-container {
+                display: flex;
+                height: 200px;
+                flex-wrap: wrap;
+                align-content: flex-end;
+                background-color: dodgerblue;
+}
