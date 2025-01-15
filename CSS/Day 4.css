@@ -1,1 +1,41 @@
+-- using the flex container selector change the flex wrap property to wrap and change the font-size to 50px.
+.flex-container {
+                display: flex;
+                flex-wrap: wrap;
+                font-size: 50px;
+}
 
+-- Align flex items that are positioned at the end of the container by using align-items property using the css selectors.
+.flex-container {
+                display: flex;
+                height: 200px;
+                align-items: flex-end;
+}
+
+-- Wrap the flex-items in a column using flex-flow property.
+.flex-container {
+                display: flex;
+                flex-flow: column wrap;
+}
+
+-- Display flex-items by changing the flex-wrap property to no wrap and space around it by using justify-content property.
+.flex-container {
+                display: flex;
+                flex-wrap: nowrap;
+                justify-content: space-around;
+}
+
+-- Display the grid items with a padding value of 20px using the selector (grid-items).
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+            background-color: #f1f1f1;
+            border: 1px solid black;
+            text-align: center;
+            font-size: 30px;
+            padding: 20px;
+}
